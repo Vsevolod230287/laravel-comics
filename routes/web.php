@@ -14,12 +14,12 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    $database = config('comics');
-    return view('home')->with('comics', $database);
+    return view('home')->with('comics', config('comics'));
 })->name('home');
 
 
 
-Route::get('/comic-info', function () {
-    return view('info');
-})->name('comic-info');
+Route::get('/info/{id}', function ($id) {
+    $comics = config('comics');
+    return view('info')->with('comic', $comics[$id]);
+})->name('info');

@@ -7,7 +7,6 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  background-color: red;
 }
 
 .active {
@@ -103,7 +102,6 @@ header .header-big-white .container .search-right i {
 }
 
 main {
-  height: 1000px;
   margin-top: 100px;
 }
 main .jumbo {
@@ -111,6 +109,73 @@ main .jumbo {
   background-image: url("../img/jumbotron.jpg");
   background-position: top;
   background-size: cover;
+}
+main section#main-comics {
+  background-color: #1C1C1C;
+}
+main section#main-comics .container {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  padding: 50px 0;
+  width: 80%;
+  margin: 0 auto;
+}
+main section#main-comics .container .current-series {
+  background-color: #0282F9;
+  padding: 10px 25px;
+  position: absolute;
+  top: -27px;
+  left: -13px;
+  color: white;
+  font-weight: 900;
+  font-size: 20px;
+}
+main section#main-comics .container .card {
+  width: calc(100%/6 - 20px);
+  margin: 0 10px;
+  padding-bottom: 30px;
+}
+main section#main-comics .container .card .thumb-img {
+  height: 200px;
+  overflow: hidden;
+}
+main section#main-comics .container .card .comic-series {
+  width: 100%;
+}
+main section#main-comics .container .div-button {
+  width: 100%;
+}
+main section#main-comics .container .div-button button {
+  padding: 10px 15px;
+}
+main section#main-comics-menu {
+  background-color: #0282F9;
+  height: 100px;
+}
+main section#main-comics-menu .container {
+  width: 80%;
+  margin: 0 auto;
+  height: 100%;
+}
+main section#main-comics-menu .container ul {
+  padding: 0 15px;
+  height: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  color: white;
+}
+main section#main-comics-menu .container ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main section#main-comics-menu .container ul li img {
+  padding-right: 10px;
+  height: 40px;
 }
 
 footer {
