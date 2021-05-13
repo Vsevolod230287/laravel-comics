@@ -1,0 +1,114 @@
+footer {
+    height: 457px;
+
+    .footer-top {
+        background-image: url("../img/footer-bg.jpg");
+        height: 377px;
+
+        .container {
+            height: 100%;
+            width: 80%;
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+
+            .footer-top-left {
+                width: 50%;
+                padding-top: 20px;
+
+                .footer-top-links {
+                    display: flex;
+                    justify-content: flex-start;
+
+                    ul {
+                        list-style: none;
+                        padding-right: 15px;
+
+                        li {
+                            color: #686C6D;
+                            font-size: 14px;
+
+                            &:first-child {
+                                font-weight: 600;
+                                color: white;
+                                padding: 20px 0;
+                                font-size: 15px;
+                            }
+                        }
+                    }
+                }
+
+                .riserved-rights {
+                    padding: 30px 0;
+
+                    p {
+                        color: #686C6D;
+                        font-size: 12px;
+
+                        a {
+                            color: #0D74E1;
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+
+            .footer-top-right {
+                height: 100%;
+                width: 50%;
+                overflow: hidden;
+
+                img {
+                    position: relative;
+                    width: 500px;
+                    top: -55px;
+                }
+            }
+        }
+    }
+
+    .footer-bottom {
+        background-color: #303030;
+        height: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+
+            .footer-bottom-left {
+                button {
+                    font-weight: 600;
+                    background-color: transparent;
+                    border: 3px solid #1F4D78;
+                    padding: 10px 15px;
+                    border-radius: 7px;
+                    color: white;
+                    font-size: 15px;
+                }
+            }
+
+            .footer-bottom-right {
+                ul {
+                    list-style: none;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    li {
+                        &:first-child {
+                            padding-right: 20px;
+                            color: #0D74E1;
+                            font-weight: 600;
+                        }
+                        padding-left: 15px;
+                    }
+                }
+            }
+        }
+    }
+}

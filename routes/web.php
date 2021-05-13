@@ -20,6 +20,6 @@ Route::get('/', function () {
 
 
 
-Route::get('/information', function () {
+Route::get('/comic-info', function () {
     return view('info');
-})->name('info');
+})->name('comic-info');
