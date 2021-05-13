@@ -1,0 +1,102 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+    .header-little-blu {
+        font-size: 14px;
+        background-color: #0282F9;
+        color: white;
+        height: 30px;
+
+        .container {
+            height: 100%;
+            margin: 0 auto;
+            width: 80%;
+
+            ul {
+                height: 100%;
+                list-style: none;
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+
+                li {
+                    padding-left: 35px;
+
+                    span {
+                        left: -3px;
+                        top: -3px;
+                        position: relative;
+                        font-size: 9px;
+                    }
+
+                    i {
+                        padding-left: 4px;
+                        color: white;
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+
+    .header-big-white {
+        font-weight: 900;
+        background-color: white;
+        height: 70px;
+
+        .container {
+            height: 100%;
+            margin: 0 auto;
+            width: 80%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .logo {
+                display: flex;
+                align-items: center;
+
+                img {
+                    height: 50px;
+                }
+            }
+
+            .nav-center {
+                display: flex;
+                align-items: center;
+
+                ul {
+                    list-style: none;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    li {
+                        padding: 0 15px;
+                        font-size: 15px;
+                    }
+                }
+            }
+
+            .search-right {
+                display: flex;
+                border-bottom: 3px solid #51A9FA;
+                height: 23px;
+                width: 100px;
+                justify-content: flex-end;
+
+                span {
+                    padding-right: 4px;
+                }
+
+                i {
+                    padding-top: 3px;
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+}

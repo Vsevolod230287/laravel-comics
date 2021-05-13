@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: red;
+}
+
+.active {
+  border-bottom: 3px solid #0D85F6;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+header .header-little-blu {
+  font-size: 14px;
+  background-color: #0282F9;
+  color: white;
+  height: 30px;
+}
+header .header-little-blu .container {
+  height: 100%;
+  margin: 0 auto;
+  width: 80%;
+}
+header .header-little-blu .container ul {
+  height: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+header .header-little-blu .container ul li {
+  padding-left: 35px;
+}
+header .header-little-blu .container ul li span {
+  left: -3px;
+  top: -3px;
+  position: relative;
+  font-size: 9px;
+}
+header .header-little-blu .container ul li i {
+  padding-left: 4px;
+  color: white;
+  font-size: 18px;
+}
+header .header-big-white {
+  font-weight: 900;
+  background-color: white;
+  height: 70px;
+}
+header .header-big-white .container {
+  height: 100%;
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .header-big-white .container .logo {
+  display: flex;
+  align-items: center;
+}
+header .header-big-white .container .logo img {
+  height: 50px;
+}
+header .header-big-white .container .nav-center {
+  display: flex;
+  align-items: center;
+}
+header .header-big-white .container .nav-center ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .header-big-white .container .nav-center ul li {
+  padding: 0 15px;
+  font-size: 15px;
+}
+header .header-big-white .container .search-right {
+  display: flex;
+  border-bottom: 3px solid #51A9FA;
+  height: 23px;
+  width: 100px;
+  justify-content: flex-end;
+}
+header .header-big-white .container .search-right span {
+  padding-right: 4px;
+}
+header .header-big-white .container .search-right i {
+  padding-top: 3px;
+  font-size: 15px;
+}
+
+main {
+  margin-top: 100px;
+}
+main .jumbo {
+  height: 300px;
+  background-image: url("../img/jumbotron.jpg");
+  background-position: top;
+  background-size: cover;
+}
