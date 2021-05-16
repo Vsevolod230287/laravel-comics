@@ -15,10 +15,10 @@
                     <img src="{{$comic['thumb']}}" alt="">
                 </a>
             </div>
-            <!--
+
             <div class="comic-series">
               <span>{{$comic['series']}}</span>
-            </div> -->
+            </div>
         </div>
         @endforeach
         <div class="div-button">

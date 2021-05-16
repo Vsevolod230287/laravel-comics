@@ -1,0 +1,89 @@
+main {
+    .blue-stripe {
+        height: 70px;
+        background-color: #0282F9;
+    }
+
+    section.info {
+        position: relative;
+        height: 400px;
+        background-color: #FFFFFF;
+
+        .info-comics {
+            padding: 30px 0;
+
+            .container {
+                padding-top: 40px;
+                display: flex;
+                width: 60%;
+                margin: 0 auto;
+
+                .adv-box {
+                    position: relative;
+                    width: 30%;
+                    height: 250px;
+
+                    .advertisment {
+                        width: 100%;
+                        padding-top: 100%;
+                        background-image: url("../img/adv.jpg");
+                        background-size: contain;
+                        background-repeat: no-repeat;
+
+                        span {
+                            color: #7E5E7F;
+                            font-weight: 700;
+                            position: absolute;
+                            top: -20px;
+                            right: 0;
+                        }
+                    }
+                }
+
+                .box-info {
+                    width: 70%;
+                    padding-right: 30px;
+
+                    .img-comic {
+                        position: absolute;
+                        top: -310px;
+                    }
+
+                    h1 {
+                        text-transform: uppercase;
+                        color: #005A82;
+                        padding-bottom: 15px;
+                    }
+
+                    .availability {
+                        font-size: 14px;
+                        background-color: #55BA59;
+                        line-height: 50px;
+                        display: flex;
+                        color: white;
+
+                        .price-availability {
+                            padding: 0 23px;
+                            display: flex;
+                            justify-content: space-between;
+                            width: 65%;
+                            text-transform: uppercase;
+                        }
+
+                        .check-availability {
+                            text-transform: uppercase;
+                            border: 1px solid #4CA650;
+                            text-align: center;
+                            width: 35%;
+                        }
+                    }
+
+                    p {
+                        color: #838BA2;
+                        padding: 10px 0;
+                    }
+                }
+            }
+        }
+    }
+}
